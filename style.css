@@ -1,0 +1,31 @@
+/*AI Generated, Gemini 3.1 pro */
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(10, 40px); /* 10 sloupců o šířce 40px */
+    gap: 2px; /* Mezery mezi políčky */
+    width: max-content;
+    margin: 20px auto; /* Vycentrování na stránce */
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+/*zde končí AI generated*/
+
+.wall {
+    background-color: #333;
+}
+
+.tank-1 {
+    background-color: #e74c3c;
+    border-radius: 50%;
+}
+
+.tank-2 {
+    background-color: #3498db;
+    border-radius: 50%;
+}
