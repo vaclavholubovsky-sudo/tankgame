@@ -29,3 +29,9 @@
     background-color: #3498db;
     border-radius: 50%;
 }
+
+.strela {
+    background-color: yellow;
+    box-shadow: 0 0 10px orange;
+    border-radius: 50%;
+}
